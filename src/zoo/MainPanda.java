@@ -8,6 +8,7 @@ public class MainPanda {
 		OsoPanda panda = new OsoPanda("Mini", 10); 
 		
 		panda.mostrar();
+		panda.getInfo();
 	}
 
 }
