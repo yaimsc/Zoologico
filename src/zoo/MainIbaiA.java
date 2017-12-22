@@ -11,7 +11,9 @@ public class MainIbaiA {
 		animales[1] = new Leon(240, 120, 10);
 		animales[2] = new Elefante("rosa", 2);
 		
-		
+		for(int i=0; i< animales.length;i++){
+			animales[i].mostrar();
+		}//Cierra for
 	}
 
 }
