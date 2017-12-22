@@ -11,18 +11,23 @@ public class Pinguino  extends Animal {
 	
 	
 	
-	public Pinguino(String especie, int patas) {
+	public Pinguino() {
 		
-		super(especie, patas);
-		this.tipoComida=tipoComida;
-		this.alas=alas;
+		super("pingüino", 2);
+		this.tipoComida="pescado";
+		this.alas=true;
 		this.vuela=vuela;
 		
 	}
 	
 	
-	
+
+
+
+
 	public void mostrar(){
+		
+		
 		String volar="";
 		if(vuela==true){
 			volar= "vuelo";
@@ -33,7 +38,7 @@ public class Pinguino  extends Animal {
 		
 		String alado="";
 		if(alas==true){
-			alado=" tiene alas";
+			alado=" tengo alas";
 		}else{
 			alado=" no tengo alas";
 		}

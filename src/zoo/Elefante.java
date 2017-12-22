@@ -4,6 +4,10 @@ public class Elefante extends Animal {
 	private String color;
 	private double longitudTrompa;
 	
+	public Elefante() {
+		super("elefante", 4);
+	}
+	
 	public Elefante(String color, double longitudTrompa){
 		super("Elefante", 4);
 		this.longitudTrompa = longitudTrompa;
