@@ -5,6 +5,10 @@ public class Animal {
 	private String especie;
 	private int patas;
 	
+	public Animal(){
+		
+	}
+	
 	public Animal(String especie, int patas) {
 		this.especie = especie;
 		this.patas = patas;
