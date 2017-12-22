@@ -42,6 +42,8 @@ public class Pinguino  extends Animal {
 		}else{
 			alado=" no tengo alas";
 		}
+		
+		
 		System.out.print("Soy un "+super.getEspecie());
 		System.out.print(" tengo "+super.getPatas()+" patas ");
 		
