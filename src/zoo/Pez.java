@@ -6,4 +6,10 @@ public class Pez extends Animal {
 		super("pez", 0);
 	}
 
+	@Override
+	public void mostrar() {
+		System.out.println(super.getEspecie() + " : "+ super.getPatas());
+		
+	}
+
 }
