@@ -15,7 +15,7 @@ public class Lombriz extends Animal {
 	}
 
 	public Lombriz() {
-
+		super("Lombriz", 0);
 	}
 
 	/*

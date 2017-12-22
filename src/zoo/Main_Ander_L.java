@@ -14,6 +14,8 @@ public class Main_Ander_L {
 		
 		animales[3]= new OsoPanda();
 		
+		animales[4]= new Pez();
+		
 		
 		for (int i =0; i< animales.length ; i++){
 			
