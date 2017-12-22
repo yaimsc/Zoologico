@@ -6,6 +6,7 @@ public class MainRana {
 		Rana r1 = new Rana();
 		Rana r2 = new Rana("Saltarina",4,"Rojo");
 		
+		
 		r2.mostrarInfo();
 	}
 
