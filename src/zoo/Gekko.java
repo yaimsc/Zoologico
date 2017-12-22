@@ -9,9 +9,10 @@ public class Gekko extends Animal {
 	int rotacion = 0;
 	
 	public Gekko() {
-		super("Gekko", 4);
+		super("gekko", 4);
 		// TODO Auto-generated constructor stub
 	}
+	
 	public void getInfo (){
 		System.out.print ("Este Gekko tiene " + cantidadDedos + " dedos y");
 		if (this.isPuedePegarse()){
@@ -86,6 +87,12 @@ public class Gekko extends Animal {
 	}
 	public void setPegado(boolean pegado) {
 		this.pegado = pegado;
+	}
+
+	@Override
+	public void mostrar() {
+		// TODO Auto-generated method stub
+		
 	}
 	
 	
