@@ -8,6 +8,10 @@ public class Leon extends Animal {
 	private int edad;
 	private String nombre;
 	
+	public Leon(){
+		super("leon", 4);
+	}
+	
 
 	
 	public Leon (double peso, double altura, int edad){
