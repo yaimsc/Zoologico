@@ -3,14 +3,16 @@ package zoo;
 public class Perro extends Animal {
 
 
-
-	
-	public Perro(String especie, int patas) {
-		super(especie, patas);
-	}
-	
 	private String raza;
 	private String color;
+	private String nombre;
+	
+	public Perro(String nombre, String raza) {
+		super("perro", 2);
+		this.nombre=nombre;
+	}
+	
+
 	
 	
 	
