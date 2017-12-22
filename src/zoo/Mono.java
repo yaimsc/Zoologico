@@ -10,6 +10,10 @@ public class Mono extends Animal{
 	 * CONSTRUCTORS
 	 */
 	
+	public Mono(){
+		super("mono", 2);
+	}
+	
 	public Mono(String nombre, String raza){
 		super("mono", 2);
 		this.nombre = nombre;
