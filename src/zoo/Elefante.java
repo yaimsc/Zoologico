@@ -13,7 +13,6 @@ public class Elefante extends Animal {
 		this.longitudTrompa = longitudTrompa;
 	}
 	
-	
 	String getColor() {
 		return color;
 	}

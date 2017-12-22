@@ -15,5 +15,10 @@ public class Main_JosuG {
 	animales[2] = new Mono();
 	animales[3] = new Leon();
 	animales[4] = new Panda();
+	
+	for(int i=0; i < animales.length; i++){
+		Animal animal = animales[i];
+		animal.mostrar();
+	}
 	}
 }
