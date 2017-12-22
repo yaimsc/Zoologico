@@ -27,7 +27,11 @@ public class OsoPanda extends Animal{
 		
 	}
 	
-	public void getInfo(){
+	/**
+	 * método mostrar sirve para que de el nombre y la edad del panda
+	 */
+	
+	public void mostrar(){
 		System.out.println("Me llamo " + this.getNombre() + " y tengo " + this.getEdad() + " años");
 	}
 	
