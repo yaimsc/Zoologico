@@ -1,4 +1,4 @@
-package Animales;
+package zoo;
 
 public class Lombriz extends Animal {
 	private double longitud;
