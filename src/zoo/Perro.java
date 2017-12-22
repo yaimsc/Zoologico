@@ -23,6 +23,15 @@ public class Perro extends Animal {
 	}
 	
 
+	/* (non-Javadoc)
+	 * @see zoo.Animal#mostrar()
+	 */
+	public void mostrar() {
+
+		System.out.println("Soy " + nombre + " y soy un perro de la raza " + raza);
+	}
+	
+	
 	/*
 	 * getters y setters
 	 */
