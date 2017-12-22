@@ -6,6 +6,7 @@ public class Leon extends Animal {
 	private double altura;
 	private String tipo_habitat;
 	private int edad;
+	private String nombre;
 	
 
 	
