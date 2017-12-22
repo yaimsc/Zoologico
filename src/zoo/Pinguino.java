@@ -16,7 +16,7 @@ public class Pinguino  extends Animal {
 		super("pingüino", 2);
 		this.tipoComida="pescado";
 		this.alas=true;
-		this.vuela=vuela;
+		this.vuela=false;
 		
 	}
 	
@@ -42,7 +42,9 @@ public class Pinguino  extends Animal {
 		}else{
 			alado=" no tengo alas";
 		}
-		super.mostrar();
+		System.out.print("Soy un "+super.getEspecie());
+		System.out.print(" tengo "+super.getPatas()+" patas ");
+		
 		System.out.print(volar);
 		System.out.print(alado);
 		System.out.print(" y como "+getTipoComida());
