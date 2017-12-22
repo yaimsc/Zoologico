@@ -7,6 +7,7 @@ public class MainRana {
 		Rana r2 = new Rana("Saltarina",4,"Rojo");
 		
 		
+	//Mostrar informacion de rana
 		r2.mostrarInfo();
 	}
 
