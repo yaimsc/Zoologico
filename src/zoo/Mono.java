@@ -24,6 +24,11 @@ public class Mono extends Animal{
 	 * FUNCTIONS & METHODS
 	 */
 	
+	@Override
+	public void mostrar() {
+
+		System.out.println("Soy " + nombre + " y soy un mono de la raza " + raza);
+	}
 	
 	
 	
@@ -54,6 +59,7 @@ public class Mono extends Animal{
 	public void setRaza(String raza) {
 		this.raza = raza;
 	}
+
 	
 	
 }

@@ -6,7 +6,7 @@ public class MainGekko {
 		// TODO Auto-generated method stub
 		Gekko g = new Gekko();
 		
-			g.setCantidadDedos(4);
+			g.setCantidadDedos(5);
 			g.setLongitud(20);
 			g.setPeso(200);
 			g.setPegado(true);
@@ -26,6 +26,7 @@ public class MainGekko {
 			g.setCantidadDedos(2);
 			g.pegarse();
 			g.getInfo();
+			
 			
 	}
 
