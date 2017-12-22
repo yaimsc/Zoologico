@@ -16,8 +16,12 @@ public class OsoPanda extends Animal{
 	
 	//constructor
 	
+	public OsoPanda(){
+		
+	}
+	
 	public OsoPanda(String nombre, int edad){
-		super("oso", 4); 
+		super("osoPanda", 4); 
 		this.nombre = nombre; 
 		this.edad = edad; 
 		
