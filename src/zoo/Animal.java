@@ -1,6 +1,6 @@
 package zoo;
 
-public class Animal {
+public abstract class Animal {
 	
 	private String especie;
 	private int patas;
@@ -14,9 +14,7 @@ public class Animal {
 		this.patas = patas;
 	}
 	
-	public void mostrar(){
-		System.out.println("Soy " + this.especie + " y tengo " + patas + " patas");
-	}
+	public abstract void mostrar();
 
 	/**
 	 * @return the especie
