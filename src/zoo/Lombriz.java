@@ -5,26 +5,34 @@ public class Lombriz extends Animal {
 	boolean bajoTierra;
 
 	/**
-	 * @param longitud (cm)
+	 * @param longitud
+	 *            (cm)
 	 */
 	public Lombriz(double longitud) {
 		super("Lombriz", 0);
 		this.longitud = longitud;
 		this.bajoTierra = false;
 	}
-	
-	/* (non-Javadoc)
+
+	public Lombriz() {
+
+	}
+
+	/*
+	 * (non-Javadoc)
+	 * 
 	 * @see Animales.Animal#mostrar()
 	 */
-	public void mostrar(){
+	public void mostrar() {
 		super.mostrar();
 		System.out.print("mido " + getLongitud() + " cm y ");
-		if (bajoTierra){
+		if (bajoTierra) {
 			System.out.print("estoy bajo tierra");
-		}else{
+		} else {
 			System.out.print("estoy en la superficie");
 		}
 	}
+
 	/**
 	 * @return longitud
 	 */
