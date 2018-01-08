@@ -22,6 +22,8 @@ public class Main_Ander_L {
 		
 		
 		
+		
+		
 		for (int i =0; i< animales.length ; i++){
 			
 			Animal animal = animales[i];
