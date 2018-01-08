@@ -23,6 +23,11 @@ public class Pinguino  extends Animal {
 	
 
 
+	public void hola(){
+		
+		System.out.println("Hola");
+	}
+	
 
 
 	public void mostrar(){
@@ -49,7 +54,7 @@ public class Pinguino  extends Animal {
 		
 		System.out.print(volar);
 		System.out.print(alado);
-		System.out.print(" y como "+getTipoComida());
+		System.out.println(" y como "+getTipoComida());
 		
 		
 	}
